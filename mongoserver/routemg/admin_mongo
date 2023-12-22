@@ -1,0 +1,17 @@
+var express = require('express');
+var router = express.Router();
+const addController = require('../../mongoserver/controller/admin_md/superadmin');
+
+module.exports = (app) => {
+
+    console.log('ddddddddddd1111111111111111111111');
+
+    app.post('/v1/admin/adminaccount/add', addController.Add);
+    app.get('/v1/mgadmin/adminaccount/list', addController.list);
+
+    app.post('/v1/admin/adminaccount/addlevel', addController.Add_Level);
+
+    app.post('/v1/admin/adminaccount/addleveldata', addController.AddLeveldata);
+
+
+}

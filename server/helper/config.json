@@ -1,0 +1,532 @@
+{
+    "log": {
+        "event": [
+            {
+                "id": "E-500",
+                "value": "Something Went Wrong"
+            },
+            {
+                "id": "E-001",
+                "value": "Master Data Get"
+            },
+            {
+                "id": "E-002",
+                "value": "Create Event Start"
+            },
+            {
+                "id": "E-003",
+                "value": "No Menu Permission to create Event"
+            },
+            {
+                "id": "E-004",
+                "value": "Invalid Input for create event"
+            },
+            {
+                "id": "E-005",
+                "value": "Event Created Successfully"
+            },
+            {
+                "id": "E-006",
+                "value": "Event Create Failed"
+            },
+            {
+                "id": "E-007",
+                "value": "Event List Start"
+            },
+            {
+                "id": "E-008",
+                "value": "Invalid Input Event List"
+            },
+            {
+                "id": "E-009",
+                "value": "Event Edit Start"
+            },
+            {
+                "id": "E-010",
+                "value": "No Menu Permission to Edit Event"
+            },
+            {
+                "id": "E-011",
+                "value": "Invalid Input Edit Event"
+            },
+            {
+                "id": "E-012",
+                "value": "Not Allowed to Edit Event . Event Registration Already Start"
+            },
+            {
+                "id": "E-013",
+                "value": "Not Allowed to Edit Event . Invalid Inputs on Event Date"
+            },
+            {
+                "id": "E-014",
+                "value": "Event Edited Successfully"
+            }
+        ],
+        "registration": {
+            "RE500": {
+                "id": "RE-500",
+                "msg": "Something Went Wrong"
+            },
+            "master": {
+                "id": "RE-001",
+                "value": "Register Master API"
+            },
+            "masterInvalid": {
+                "id": "RE-002",
+                "value": "Invalid Input Register Master API "
+            },
+            "player": {
+                "id": "RE-003",
+                "value": "Search Player"
+            },
+            "playerInvalid": {
+                "id": "RE-004",
+                "value": "Invalid Input player search API "
+            },
+            "join": {
+                "id": "RE-005",
+                "value": "Join Event"
+            },
+            "joinInvalid": {
+                "id": "RE-006",
+                "value": "Invalid input join API"
+            },
+            "joinMax": {
+                "id": "RE-007",
+                "value": "Reached maximum number of registration"
+            },
+            "joinFail": {
+                "id": "RE-008",
+                "value": "Join failed"
+            },
+            "addPlayers": {
+                "id": "RE-009",
+                "value": "Add Player"
+            },
+            "addInvalid": {
+                "id": "RE-010",
+                "value": "Invalid input"
+            },
+            "addFailed": {
+                "id": "RE-011",
+                "value": "Add player failed"
+            },
+            "list": {
+                "id": "RE-012",
+                "value": "List API"
+            },
+            "listMenu": {
+                "id": "RE-013",
+                "value": "No menu permission"
+            },
+            "listInvalid": {
+                "id": "RE-014",
+                "value": "Invalid input"
+            },
+            "view": {
+                "id": "RE-015",
+                "value": "View detail"
+            },
+            "viewInvalid": {
+                "id": "RE-016",
+                "value": "Invalid input"
+            },
+            "editPlayer": {
+                "id": "RE-017",
+                "value": "Edit Player"
+            },
+            "editInvalid": {
+                "id": "RE-018",
+                "value": "Invalid input"
+            },
+            "submit": {
+                "id": "RE-019",
+                "value": "Submit Register"
+            },
+            "submitInvalid": {
+                "id": "RE-020",
+                "value": "Invalid input"
+            }
+        },
+        "profile": {
+            "SP500": {
+                "id": "SP-500",
+                "value": "Something Went Wrong",
+                "msg": "Something Went Wrong"
+            },
+            "master": {
+                "id": "SP-001",
+                "value": "Profile Master API"
+            },
+            "masterInvalid": {
+                "id": "SP-002",
+                "value": "Invalid Input Profile Master API "
+            },
+            "uploadprofile": {
+                "id": "SP-003",
+                "value": "Uploaded Profile Picture",
+                "msg": "Profile Uploaded Successfully"
+            },
+            "uploadprofileFailed": {
+                "id": "SP-004",
+                "value": "Upload Profile Picture Failed",
+                "msg": "Profile Uploaded Failed"
+            },
+            "invaliduploadprofile": {
+                "id": "SP-005",
+                "value": "Invalid Input to upload profile"
+            },
+            "invalidprofile": {
+                "id": "SP-006",
+                "value": "Invalid Input for profile"
+            },
+            "profile": {
+                "id": "SP-007",
+                "value": "Profile uploaded",
+                "msg": "Profile uploaded successfully"
+            },
+            "profilefailed": {
+                "id": "SP-008",
+                "value": "Profile uploaded failed",
+                "msg": "Profile upload failed"
+            },
+            "getprofile": {
+                "id": "SP-008",
+                "value": "Get Profile"
+            },
+            "getmyprofile": {
+                "id": "SP-009",
+                "value": "Get My Profile"
+            }
+        },
+        "subscriber": {
+            "SS500": {
+                "id": "SS-500",
+                "value": "Something Went Wrong",
+                "msg": "Something Went Wrong"
+            },
+            "menu": {
+                "id": "SS-001",
+                "value": "No menu permission to view subscriber",
+                "msg": "User Un-Authorized , Contact - Admin"
+            },
+            "subscriber": {
+                "id": "SS-002",
+                "value": "Get Subscriber List"
+            },
+            "subscriberProfile": {
+                "id": "SS-003",
+                "value": "View Subscriber profile"
+            },
+            "invalidProfile": {
+                "id": "SS-004",
+                "value": "Invalid input to View Subscriber profile"
+            },
+            "invalidProfilelist": {
+                "id": "SS-005",
+                "value": "Invalid input to View Subscriber profile List"
+            },
+            "editSubscriber": {
+                "id": "SP-006",
+                "value": "Subscriber Edit",
+                "update": "Subscriber updated  Successfully"
+            },
+            "invalideditSubscriber": {
+                "id": "SP-007",
+                "value": "Invalid Input to edit Subscriber"
+            }
+        },
+        "friends": {
+            "FR500": {
+                "id": "FR-500",
+                "value": "Something Went Wrong",
+                "msg": "Something Went Wrong"
+            },
+            "find": {
+                "id": "FR-001",
+                "value": "Find friends search"
+            },
+            "findInvalid": {
+                "id": "FR-002",
+                "value": "Find friends search Invalid"
+            },
+            "add": {
+                "id": "FR-003",
+                "value": "Add Request",
+                "msg": "Friend Request Sent",
+                "failed": "Friend Request Sent Failed"
+            },
+            "addInvalid": {
+                "id": "FR-004",
+                "value": "Invalid Input to Add Request"
+            },
+            "action": {
+                "id": "FR-005",
+                "value": "Add Request",
+                "add": "Friend Request Sent",
+                "approve": "Friend Request Approved",
+                "reject": "Friend Request Rejected",
+                "unfriend": "Unfriended Successfully",
+                "failed": "Action Failed"
+            },
+            "actionInvalid": {
+                "id": "FR-006",
+                "value": "Invalid Input For Action Against Request"
+            },
+            "list": {
+                "id": "FR-007",
+                "value": "Friends List"
+            },
+            "listInvalid": {
+                "id": "FR-008",
+                "value": "Invalid Input For Friends List"
+            }
+        },
+        "match": {
+            "MS500": {
+                "id": "MS-500",
+                "value": "Something Went Wrong",
+                "msg": "Something Went Wrong"
+            },
+            "master": {
+                "id": "MS-001",
+                "value": "Master for Match Schedule"
+            },
+            "masterInvalid": {
+                "id": "MS-002",
+                "value": "Invlaid Input - Master for Match Schedule"
+            },
+            "schedule": {
+                "id": "MS-003",
+                "value": "Match Schedule",
+                "msg": "Match Scheduled Successfully"
+            },
+            "scheduleInvalid": {
+                "id": "MS-004",
+                "value": "Invlaid Input for Match Schedule"
+            },
+            "getschedule": {
+                "id": "MS-005",
+                "value": "Get Match Schedule"
+            },
+            "getscheduleInvalid": {
+                "id": "MS-006",
+                "value": "Invalid - Get Match Schedule"
+            },
+            "detailschedule": {
+                "id": "MS-007",
+                "value": "Detail Match Schedule"
+            },
+            "detailscheduleInvalid": {
+                "id": "MS-008",
+                "value": "Invalid Input - Detail Match Schedule"
+            }
+        },
+        "feed": {
+            "NF500": {
+                "id": "NF-500",
+                "value": "Something Went Wrong",
+                "msg": "Something Went Wrong"
+            },
+            "feed": {
+                "id": "NF-001",
+                "value": "Feed Successfully",
+                "add": "Feed Added Successfully",
+                "update": "Feed Updated Successfully",
+                "delete": "Feed Deleted Successfully",
+                "failed": "Feed Failed"
+            },
+            "feedInvalid": {
+                "id": "NF-002",
+                "values": "Invalid Input for Feed"
+            },
+            "feedlist": {
+                "id": "NF-003",
+                "value": "Feed List",
+                "msg": "Feed Listed Successfully"
+            },
+            "feedlistInvalid": {
+                "id": "NF-004",
+                "values": "Invalid Input for Feed List"
+            }
+        },
+        "notification": {
+            "msg": {
+                "friend_request": "You have a new friend request",
+                "accept_request": "has accepted your friend request",
+                "parent_submit": "has requested to create  a subscription  using your  mobile number",
+                "parent_approve": "Parent has accepted your subscription request",
+                "parent_reject": "Parent has rejected your subscription request",
+                "kpi_approve": "Your submitted KPI has been apporoved",
+                "kpi_reject": "Your submitted KPI has been rejected",
+                "kpi_revalidate": "Your submitted KPI has been asked to revalidate"
+            },
+            "type": {
+                "friend_request": "profile",
+                "accept_request": "profile",
+                "parent_submit": "",
+                "parent_approve": "",
+                "parent_reject": ""
+            },
+            "icon": {
+                "friend_request": "images/notification/friend_request.png",
+                "accept_request": "images/notification/accept_request.png",
+                "parent_submit": "images/notification/parent_submit.png",
+                "parent_approve": "images/notification/parent_approve.png",
+                "parent_reject": "images/notification/parent_reject.png"
+            },
+            "FCM500": {
+                "id": "FCM-500",
+                "value": "Something Went Wrong",
+                "msg": "Something Went Wrong"
+            },
+            "getnotify": {
+                "id": "FCM-001",
+                "value": "Get Notification"
+            },
+            "seen": {
+                "id": "FCM-002",
+                "value": "Update Notify Read Status"
+            },
+            "seenInvalid": {
+                "id": "FCM-003",
+                "value": "Invalid Input - Update Notify Read Status"
+            }
+        },
+        "master": {
+            "MAS500": {
+                "id": "MAS-500",
+                "value": "Something Went Wrong",
+                "msg": "Something Went Wrong"
+            },
+            "tournament": {
+                "id": "MAS-001",
+                "value": "Master Tournament",
+                "add": "Tournament Added  Successfully",
+                "update": "Tournament Updated  Successfully"
+            },
+            "tournamentInvalid": {
+                "id": "MAS-002",
+                "value": "Invalid Input tournament"
+            },
+            "olympic": {
+                "id": "MAS-001",
+                "value": "Master Olympic",
+                "add": "Olympic Added  Successfully",
+                "update": "Olympic Updated  Successfully"
+            },
+            "olympicInvalid": {
+                "id": "MAS-002",
+                "value": "Invalid Input olympic"
+            },
+            "nopermission": {
+                "id": "MAS-003",
+                "value": "No menu permission"
+            },
+            "venue": {
+                "id": "MAS-003",
+                "value": "Master Venue",
+                "add": "Venue Added  Successfully",
+                "update": "Venue Updated  Successfully"
+            },
+            "venueInvalid": {
+                "id": "MAS-004",
+                "value": "Invalid Input Venue"
+            },
+            "venuelist": {
+                "id": "MAS-005",
+                "value": "Venue list"
+            },
+            "venueListInvalid": {
+                "id": "MAS-006",
+                "value": "Invalid Input Venue List"
+            },
+            "venuemaster": {
+                "id": "MAS-007",
+                "value": "Venue Master"
+            },
+            "venuemasterInvalid": {
+                "id": "MAS-008",
+                "value": "Venue Master Invalid"
+            },
+            "venueStatus": {
+                "id": "MAS-009",
+                "value": "Venue Ststus"
+            },
+            "venueStatusInvalid": {
+                "id": "MAS-010",
+                "value": "Invlaid Input - Venue Ststus"
+            }
+        },
+        "chat": {
+            "CHAT500": {
+                "id": "CHAT-500",
+                "value": "Something Went Wrong",
+                "msg": "Something Went Wrong"
+            },
+            "history": {
+                "id": "CHAT-001",
+                "value": "Chat History"
+            },
+            "historyInvalid": {
+                "id": "CHAT-002",
+                "value": "Invalid Input - Chat History"
+            },
+            "friends": {
+                "id": "CHAT-003",
+                "value": "Friends List"
+            },
+            "conversation": {
+                "id": "CHAT-004",
+                "value": "Chat Conversation"
+            },
+            "upload": {
+                "id": "CHAT-005",
+                "value": "Upload Chat Conversation"
+            },
+            "uploadInvalid": {
+                "id": "CHAT-006",
+                "value": "Invlaid Input Upload Chat Conversation"
+            }
+        },
+        "role": {
+            "ROLE500": {
+                "id": "ROLE-500",
+                "value": "Something Went Wrong",
+                "msg": "Something Went Wrong"
+            },
+            "init": {
+                "id": "ROLE-001",
+                "value": "Role Init"
+            },
+            "Invalidinit": {
+                "id": "ROLE-002",
+                "value": "Invalid Input Role Init"
+            },
+            "nopermission": {
+                "id": "ROLE-003",
+                "value": "No menu permission for ROLE"
+            },
+            "permission": {
+                "id": "ROLE-004",
+                "value": "Submit menu permission",
+                "msg": "User Roles Successfully Updated"
+            },
+            "invalidpermission": {
+                "id": "ROLE-004",
+                "value": "Invalid Input Submit menu permission"
+            }
+        },
+        "dashboard": {
+            "DAS500": {
+                "id": "DAS-500",
+                "value": "Something Went Wrong",
+                "msg": "Something Went Wrong"
+            },
+            "count": {
+                "id": "DAS-001",
+                "values": "Count Dashboard"
+            }
+        }
+    }
+}
